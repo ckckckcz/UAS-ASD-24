@@ -109,7 +109,7 @@ public class Main {
                 totPendapatan = Pajak + Denda;
                 totPen += totPendapatan;
                 counter++;
-                break; // Jika sudah menemukan kendaraan, keluar dari loop
+                break;
             }
             current = current.next;
         }
